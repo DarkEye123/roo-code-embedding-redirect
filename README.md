@@ -1,4 +1,9 @@
-# Execution
+# Purpose
+
+Solves a problematic usage of roo code experimental codebase indexing functionality for `llama.cpp`.  Idea is to have a simple api server for redirect of indexing request. 
+These are problematic when used with llama.cpp as by default roo code extension tries to access /api/embed which is not supported endpoint in llama.cpp implementation.
+
+## Execution
 
 before anythin start your llama.cpp server with embedding => e.g. 
 
